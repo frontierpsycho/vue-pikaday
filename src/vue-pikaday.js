@@ -1,5 +1,5 @@
 let Pikaday = typeof require === 'function'
-    ? require('Pikaday')
+    ? require('pikaday-time')
     : window.Pikaday
 
 if (!Pikaday) {
